@@ -24,6 +24,8 @@ const AllQueries = () => {
 
 
 
+
+
   useEffect(() => {
     getAllQueries();
   }, []);
@@ -34,7 +36,7 @@ const AllQueries = () => {
 
   return (
     <div className="min-h-screen  p-1 font-['Open Sans','sans-serif']">
-      <h2 className="text-3xl font-bold mb-6 text-gray-800">All Queries</h2>
+      <h2 className="text-3xl font-bold mb-6 text-gray-800">All Queries , sandy test</h2>
 
       <div className="space-y-3">
         {loading ?(<div><Loading/></div>) : queries.length === 0 ? (
