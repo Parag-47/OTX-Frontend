@@ -3,6 +3,8 @@ import API from "../apiInstance/axios";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import Loading from "../components/Loading";
 
+//check new branch 
+
 const AllQueries = () => {
   const [queries, setQueries] = useState([]);
   const [openId, setOpenId] = useState(null);
@@ -19,6 +21,8 @@ const AllQueries = () => {
       setLoading(false);
     }
   };
+
+
 
   useEffect(() => {
     getAllQueries();
