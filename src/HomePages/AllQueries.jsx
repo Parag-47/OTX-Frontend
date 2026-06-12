@@ -22,10 +22,6 @@ const AllQueries = () => {
     }
   };
 
-
-
-
-
   useEffect(() => {
     getAllQueries();
   }, []);
