@@ -20,6 +20,9 @@ const AllQueries = () => {
     }
   };
 
+
+
+  //usign useEffect to fetch all queries when the component mounts
   useEffect(() => {
     getAllQueries();
   }, []);
