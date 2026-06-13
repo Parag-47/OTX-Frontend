@@ -1,8 +1,8 @@
 import axios from "axios"
 
 const API = axios.create({
-    baseURL:import.meta.env.VITE_API_URL || "http://localhost:5500/api/v1/",
-    withCredentials:true
+    baseURL: "https://api.onetimex.in/api/v1",
+    withCredentials: true
 })
 
 export default API
